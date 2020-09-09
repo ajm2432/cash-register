@@ -3,7 +3,7 @@ def cash_register():
     print('***********************************************************************************')
     print("if done 'shopping' please type 'y' after entering last product price")
     print('If still calculating press the "enter" key after typing in the product price')
-    print('the program can take any floating integer, but will round to the 10th place'
+    print('the program can take any floating integer, but will round to the 10th place')
     print('***********************************************************************************')
     total_price = 0
     ready = 'n'
