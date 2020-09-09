@@ -12,7 +12,7 @@ def cash_register():
     if ready == 'y':
         print("Please pay",'$',product_price,'now')
         total_price = product_price
-    elif(product_price < 0):
+    elif(product_price <= 0):
         print(' Must be a positive number!')
     else:
         while (ready != 'y'):            
